@@ -1,4 +1,4 @@
-# 📈 LSTM Stock Price Prediction
+# LSTM Stock Price Prediction
 
 <div align="center">
 
@@ -15,18 +15,18 @@
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-- 🔮 **Prediksi harga penutupan** saham hari berikutnya
-- 📊 **Visualisasi** perbandingan harga aktual vs prediksi
-- 🔐 **Sistem autentikasi** user (login/register via SQLite)
-- 📁 **Riwayat prediksi** tersimpan per akun
-- 🧪 **Dua mode data**: dataset penelitian statis (1000 hari) & live via yFinance
-- 💾 **Save/load model** artifacts (state dict, scaler, config, metrics)
+- **Prediksi harga penutupan** saham hari berikutnya
+- **Visualisasi** perbandingan harga aktual vs prediksi
+- **Sistem autentikasi** user (login/register via SQLite)
+- **Riwayat prediksi** tersimpan per akun
+- **Dua mode data**: dataset penelitian statis (1000 hari) & live via yFinance
+- **Save/load model** artifacts (state dict, scaler, config, metrics)
 
 ---
 
-## 🗂 Struktur Proyek
+## Struktur Proyek
 
 ```
 lstm-stock-prediction/
@@ -56,7 +56,7 @@ lstm-stock-prediction/
 
 ---
 
-## ⚙️ Instalasi
+## Instalasi
 
 ```bash
 # Clone repo
@@ -76,7 +76,7 @@ streamlit run app.py
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 torch>=2.0.0
@@ -90,7 +90,7 @@ joblib>=1.3.0
 
 ---
 
-## 🏗 Arsitektur
+## Arsitektur
 
 ```
 Input (OHLCV × 60 hari)
@@ -116,7 +116,7 @@ Input (OHLCV × 60 hari)
 
 ---
 
-## 📊 Evaluasi
+## Evaluasi
 
 | Metrik     | Keterangan                          |
 |-----------|-------------------------------------|
@@ -125,22 +125,22 @@ Input (OHLCV × 60 hari)
 
 ---
 
-## 🔐 Akun Default
+## Akun Default
 
 | Username | Password | Role  |
 |----------|----------|-------|
 | admin    | admin    | admin |
 
-> ⚠️ Registrasi akun baru hanya dapat dilakukan oleh admin.
+> Registrasi akun baru hanya dapat dilakukan oleh admin.
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 MIT License — lihat [LICENSE](LICENSE)
 
 ---
 
 <div align="center">
-Made with ❤️ by <a href="https://github.com/MuhammadSamman">Muhammad Samman</a>
+Made with by <a href="https://github.com/MuhammadSamman">Muhammad Samman</a>
 </div>
